@@ -5,8 +5,8 @@ router.get("/login", (req, res) => {
     res.send("Login route");
 });
 
-router.get("/register", (req, res) => {
-    res.send("Register route");
+router.get("/signup", (req, res) => {
+    res.send("Sign up route");
 });         
 
 module.exports = router;
