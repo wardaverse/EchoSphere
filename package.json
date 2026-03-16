@@ -6,11 +6,10 @@
   "scripts": {
     "server": "nodemon backend/server.js"
   },
-  "type":"module",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "body-parser": "^2.2.2",
     "cookie-parser": "^1.4.7",
