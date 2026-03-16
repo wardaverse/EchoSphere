@@ -12,8 +12,6 @@ app.get("/", (req, res) => {
   res.status(200).send("Welcome to EchoSphere API");
 });
 
-app.use(express.json()); // Middleware to parse JSON request bodies
-
 app.use("/api/auth", authRoutes);
 app.listen(PORT, "127.0.0.1", () => {
   connectToMongoDB();  
